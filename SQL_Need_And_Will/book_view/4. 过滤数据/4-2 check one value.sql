@@ -1,0 +1,9 @@
+USE example;
+
+
+-- --------------------
+-- 检查单个值
+-- --------------------
+SELECT prod_name, prod_price
+FROM Products
+WHERE prod_price < 10;
